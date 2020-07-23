@@ -1,0 +1,45 @@
+/*
+*{} - 0 приоритет
+p{}- 1 приоритет тега
+
+.class-name{} 2 приоритет віше чем указанніе 2 вверху Классі могут вкладіваться друг в друга и тогда названия пишуться через пробел. Но название одного класса пишиться через дефис или ниж.подч. Пример class="text text_s"> !!! названия классов регистрозависимы
+
+#id-name{} 3 приоритет іd обращение через id веше приоритет чем у 3 ввыше указанных.
+inline-style самый высокий указывается в коде пример = <h1-style="color:red">..... НО этот приоритет можно перебить любым из вышеуказаным селестором если использовать => !important  =>пример
+
+.text{
+    text-transform: uppercase;
+    color: gray !important;
+    font-weight: bold;
+}
+*/
+
+/*mark{
+    background-color: palegreen;
+}*/
+
+mark{
+    background-color: palegreen;
+    font-size: 30px;
+}
+h1{
+    color: orange;
+}
+
+p mark{
+    background-color: lightblue;
+    color: darkturquoise;
+    
+}
+.text{
+    text-transform: uppercase;
+    color: gray !important;
+    font-weight: bold;
+}
+.text-s{
+    font-size: small;
+    color: lightcoral;
+}
+.text-l{
+    font-size: x-large;
+}
